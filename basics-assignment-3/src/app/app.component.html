@@ -12,13 +12,10 @@
   </div>
 </div>
 
-<button 
-    class="btn btn-primary"
-    (click)="displayDetails()">Display Details</button>
-
+<button class="btn btn-primary" (click)="displayDetails()">Display Details</button>
 <p *ngIf="displayYesNo"> This is a piece of text just for testing purposes.</p>
-<ng-container *ngFor="let clickItem of clicksArray | slice:1"> 
-    <p [ngStyle]="{'background-color' : getBackGroundColor(clickItem.number), 'color' : getTextColor(clickItem.number)}">
-        {{clickItem.timeStamp}} click #{{clickItem.number}}
-    </p>
-</ng-container>
+<div 
+  *ngFor="let clickItem of clicksArray; let i = index"
+  [ngStyle]="{'background-color' : i >=4 ? 'blue' : 'transparant', 'color' :  i >=4 ? 'white' : 'black'}">
+    {{clickItem}} click #{{i + 1}}
+</div>
