@@ -1,3 +1,3 @@
 # training
 
-current video: 30
+current video: 4 - 1
