@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Ramon\\workspaces\\training\\cordova-android\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "/Users/rx16/training/cordova-android/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ramon\\workspaces\\training\\cordova-android\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "/Users/rx16/training/cordova-android/platforms/android/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",
